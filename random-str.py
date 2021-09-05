@@ -1,9 +1,7 @@
-
+import string
 import random
 
-chars = list(
-    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()`~-_=+\,.<>/?;:'\""
-)
+chars = string.printable
 strs = []
 
 classif = int(
